@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import {App,SignIn} from './components'; //import Obj from './components'
+import { App } from './components'; //import Obj from './components'
 
 // ReactDOM.render(
 //   <React.StrictMode>
@@ -9,4 +9,4 @@ import {App,SignIn} from './components'; //import Obj from './components'
 //   </React.StrictMode>,
 //   document.getElementById('root')
 // );
-ReactDOM.render(<SignIn/>,document.getElementById('root'));
+ReactDOM.render(<App/>,document.getElementById('root'));
