@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import { App } from './components'; //import Obj from './components'
 import { BrowserRouter } from 'react-router-dom';
+import UserProvider from './providers/UserProvider'
 
 // ReactDOM.render(
 //   <React.StrictMode>
@@ -11,8 +12,10 @@ import { BrowserRouter } from 'react-router-dom';
 //   document.getElementById('root')
 // );
 ReactDOM.render(
-    <BrowserRouter>
-        <App />
-    </BrowserRouter>,
+    <UserProvider>
+        <BrowserRouter>
+            <App />
+        </BrowserRouter>
+    </UserProvider>,
     document.getElementById('root')
 );
