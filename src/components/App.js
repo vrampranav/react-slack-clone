@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
-import { Switch, Router } from 'react-router-dom';
-import { Route } from 'react-router-dom/cjs/react-router-dom.min';
+import { Switch, Route } from 'react-router-dom';
 import { SignIn, Slack } from './';
 
 function Home() {
